@@ -1,7 +1,9 @@
-# Automated Resume Writer with LangGraph  
+# Automated Resume Writer with LangGraph 
 
 ## Project Description  
-This project demonstrates how to build an **agentic workflow** for automatic resume drafting and editing using **LangGraph**.  
+This project demonstrates how to build an **agentic workflow** for automatic resume drafting and editing using **LangGraph**.
+
+[Full Project Notebook](https://ryanstark223232.github.io/resume_mirror/resume_mirror.html)
 
 ### Features  
 - **Qualification Extraction Subgraph**  

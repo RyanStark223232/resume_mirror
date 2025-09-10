@@ -14593,7 +14593,20 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Project-Goal">Project Goal<a class="anchor-link" href="#Project-Goal">&#182;</a></h1><p>Build an automated resume writing system using LangGraph.</p>
+<h1 id="Project-Goal">Project Goal<a class="anchor-link" href="#Project-Goal">&#182;</a></h1><p>Automated Resume Writer powered by LangGraph.
+This project demonstrates how to build an agentic workflow for automatic resume drafting and editing:</p>
+<ul>
+<li><p>Qualification Extraction Subgraph: Parses job postings, loops with human feedback until approved.</p>
+</li>
+<li><p>Resume Drafting: Generates a tailored resume draft based on the user’s existing CV.</p>
+</li>
+<li><p>Editor Feedback: Runs through multiple editors for critique and revision (supports up to 2 feedback loops).</p>
+</li>
+<li><p>LangGraph Studio Integration: Enables human-in-the-loop interactions for a seamless editing experience.</p>
+</li>
+<li><p>Traceable Workflows: Full execution documented in 5 publicly available LangSmith prompt traces.</p>
+</li>
+</ul>
 
 </div>
 </div>
@@ -15298,7 +15311,7 @@ class="
 the final stage of the workflow has been migrated to <strong>LangGraph Studio</strong>.<br>
 This environment provides a more seamless way to handle iterative edits and human-in-the-loop validation.</p>
 <p>Tutorial on how to setup LangGraph Studio can be found at <a href="https://langchain-ai.github.io/langgraph/tutorials/langgraph-platform/local-server/?_gl=1*16rgfli*_gcl_au*OTUwNDIyOTE2LjE3NTczNDU4MDU.*_ga*MjAzMzMxNDcwNi4xNzU3NDY2NjQ0*_ga_47WX3HKKY2*czE3NTc0NjY2NDQkbzEkZzEkdDE3NTc0NjY2NzAkajM0JGwwJGgw">Tutorial</a>.</p>
-<p>After the setup is done, just run <code>langgraph dev</code> in the <code>./studio</code> directory.</p>
+<p>Clone the <a href="https://github.com/RyanStark223232/resume_mirror">Repo</a>, and After the setup is done, just run <code>langgraph dev</code> in the <code>./studio</code> directory.</p>
 <p>The complete interaction of the agentic workflow is documented across five publicly available<br>
 <strong>prompt traces</strong> hosted on <strong>LangSmith</strong>:</p>
 <ol>
